@@ -3,12 +3,11 @@
 #www.filiprokita.com
 
 import base64
+import sys
 
 
 
-filedir = input('FILE: ')
-
-
+filedir = sys.argv[1]
 
 f = open(filedir, 'rb')
 data = f.read()
